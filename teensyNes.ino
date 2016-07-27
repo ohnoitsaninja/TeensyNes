@@ -20,7 +20,7 @@ SOFTWARE.
 
 #include "nesController.h"
 #define debugOut // serial output of controller changes
-#define joystick
+
 nesController nes1(13,14,15); // (clock, latch, data)
 /*  NES controller pinout  
  *     ground | o   \       
